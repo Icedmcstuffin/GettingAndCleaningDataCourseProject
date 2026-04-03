@@ -9,3 +9,6 @@ Only mean and standard deviation measurements are taken from the features.txt fi
 Then the Activity labels are given to each numerical value in activity column
 
 Then the file uses the dplyr module to categorise the dataframe by subject and activity and finds the mean of all the columns and outputs the new dataframe as tidyData.csv
+
+
+Ensure that you download the data file from here and save it in the same directory as run_analysis.R
