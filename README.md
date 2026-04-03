@@ -11,4 +11,4 @@ Then the Activity labels are given to each numerical value in activity column
 Then the file uses the dplyr module to categorise the dataframe by subject and activity and finds the mean of all the columns and outputs the new dataframe as tidyData.csv
 
 
-Ensure that you download the data file from here and save it in the same directory as run_analysis.R
+Ensure that you download the data file from here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and save it in the same directory as run_analysis.R
