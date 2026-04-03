@@ -43,4 +43,4 @@ sortedData$Activity <- replace(sortedData$Activity, sortedData$Activity == 6, ac
 # preparing grouped dataframe and calculating mean of each
 tidyData <- sortedData %>% group_by(Subject = sortedData$Subject, Activity = sortedData$Activity) %>% summarise(across(everything(), mean), .groups = "drop")
 
-write.csv(tidyData, file="tidyData.csv")
+write.table(tidyData, file="tidyData.csv", row.name=FALSE)
